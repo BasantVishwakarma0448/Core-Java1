@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position </title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        body{
+            height: 4444px;
+
+        }
+        ul{
+            background-color: red;
+            list-style: circle outside;
+            
+        }
+        header{
+            background-color:black;
+            color: white;
+            height: 70px;
+            position: sticky;
+            top: 0;
+            z-index: 3;
+        
+        }
+        li{
+            /* display: inline; */
+            /* background-color: blueviolet; */
+            list-style: circle inside;
+        }
+        p{
+         text-align: center; 
+         /* border: 2px solid red;
+         border-radius: 0.9cm;    */
+        }
+        .container{
+            background-color: aqua;
+            width: 50vw;
+            height: 50vh;
+            margin: auto;
+            /* border-radius: 0.9cm; */
+            position: relative;
+
+        }
+        .box{
+            position: fixed;
+            /* position: relative; */
+            height: 200px;
+            width: 200px;
+            background-color: chocolate;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illum accusantium iste ducimus facilis aspernatur ullam itaque officia voluptatem hic. Ullam, iste temporibus! Dolores cupiditate excepturi iure, voluptate adipisci sunt.</p>
+        <div class="box">I am a box</div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Oranges</li>
+        <li>banana</li>
+    </ul>
+</body>
+</html>

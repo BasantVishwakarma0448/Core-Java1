@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original Animation</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: aquamarine;
+
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            color: white;
+            animation-name: widthanimate;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+
+        }
+        @keyframes widthanimate{
+            from{
+                width: 300px;
+            }
+            to{
+                width: 600px;
+            }
+        }
+        @keyframes widthanimate{
+            from{
+                width: 300px;
+            }
+            to{
+                width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eveniet optio deserunt, aliquam animi maxime sed vel laudantium blanditiis alias.
+        </div>
+    </div>
+</body>
+</html>

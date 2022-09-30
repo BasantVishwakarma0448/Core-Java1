@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            height: 800px;
+            background-color: pink;
+        }
+        .box{
+            /* padding: 0; */
+            display: inline-block;
+            border: 3px solid black;
+        }
+        /* .img{
+            width: 400px;
+            height: 400px; */
+        
+        img:hover{
+            width: 200px;
+            height: 200px;
+
+        }
+        img{
+            width: 400px;
+            height: 500px;
+            /* transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-property: height;
+            transition-duration: 3s;
+            transition-timing-function: ease-in; */
+            transition: width 3s ease-in, height 3s ease-in;
+
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="image.jpg.jpg">
+        </div>
+    </div>
+    
+</body>
+</html>
