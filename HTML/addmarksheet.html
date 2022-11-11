@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Marksheet</title>
+</head>
+
+<body>
+    <header>
+        <table>
+            <tbody width="100%">
+                <tr>
+                    <th></th>
+                    <td width="90%"> <a href="welcome.html"> Welcome</a> | <a href="index.html">logout</a></td>
+                    <td rowspan="2">
+                        <h1 align="right"><img src="logo.png" height="80px" width="200px" alt="logo"></h1>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <h3>Hi, Admin (Admin)</h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <a href="getmarksheet.html">Get Marksheet</a> |
+                        <a href="marksheetmeritlist.html">Marksheet Merit list</a> |
+                        <a href="myprofile.html">My Profile</a> |
+                        <a href="changepassword.html">Change Password</a> |
+                        <a href="notfound.html">Java Doc</a> |
+                        <a href="addmarksheet.html">Add Marksheet</a> |
+                        <a href="marksheetlist.html">Marksheet List</a> |
+                        <a href="notfound.html">Add User</a> |
+                        <a href="notfound.html">User List</a> |
+                        <a href="notfound.html">Add College</a> |
+                        <a href="notfound.html">College List</a> |
+                        <a href="notfound.html">Add Student</a> |
+                        <a href="notfound.html">Student List</a> |
+                        <a href="notfound.html">Add Role</a> |
+                        <a href="notfound.html">Role List</a> ||
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <hr>
+    <center>
+        <form action="addmarksheet.html">
+            <h1>Add Marksheet</h1>
+            <h2 style="color: red;">Error</h2>
+            <h2 style="color: green;">Marksheet is Saved</h2>
+
+            <table>
+                <tr>
+                    <th>Roll Number* </th>
+                    <td><input type="text" name="rollno" id="" required>
+                        <font style="color: red;">Roll Number is Required</font>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Name* </th>
+                    <td>
+                        <select name="studentId" id="">
+                            <option value="">--Select--</option>
+                            <option value="2">Ram Dubey</option>
+                            <option value="5">Nidhi roy</option>
+                            <option value="6">Kamal Soni</option>
+                            <option value="7">Rakesh Patil</option>
+                            <option value="8">Suresh Mehta</option>
+                            <option value="34">Rashmi Shukla</option>
+                            <option value="21">Mahesh Koshti</option>
+                            <option value="12">Raghav Lodhi</option>
+                            <option value="11">Dushyant Kumar</option>
+                            <option value="4">Abhishek Sahu</option>
+                            <option value="9">Vivek Sahu</option>
+                            <option value="10">Ankit Namdev</option>
+                            <!-- <option value="13">Ajay Thakur</option>
+                            <option value="14">Narendra Thakur</option>
+                            <option value="15">Anurag Goswami</option>
+                            <option value="16">Vimlesh Kumar</option>
+                            <option value="17">Sakshi Nagaich</option>
+                            <option value="18">Arpita Soni</option>
+                            <option value="19">Ramkumar Mehta</option>
+                            <option value="20">Neha Sharma</option>
+                            <option value="21">Akash Gupta</option>
+                            <option value="22">Shiv Rajput</option>
+                            <option value="23">Ram Prasad</option>
+                            <option value="24">Anoop Koshti</option> -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Physics</th>
+                    <td><input type="text" name="physics" id="" value="120">
+                        <font style="color: red;">Marks can not be greater than 100</font>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <th>Chemistry</th>
+                    <td><input type="text" name="chemistry" id="" value="120">
+                        <font style="color: red;">Marks can not be greater than 100</font>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Maths</th>
+                    <td><input type="text" name="maths" id="" value="120">
+                        <font style="color: red;">Marks can not be greater than 100</font>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="button" name="submit" id="" value="Save">
+                        <input type="button" name="submit" id="" value="Cancel">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <footer>
+            <h3>&copy Copyright SunilOs Infotech Pvt. Ltd.</h3>
+        </footer>
+    </center>
+</body>
+
+</html>
